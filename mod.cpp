@@ -1,0 +1,12 @@
+name = "TIS Medical";
+picture = "TISaddon.paa";
+actionName = "GitHub";
+action = "https://github.com/TIS-Team/TIS-Medical";
+description = "Medical mod for TIS Arma 3 Unit";
+logo = "TISEXP2.paa";
+logoOver = "TISEXP2.paa";
+tooltip = "TIS-Medical";
+tooltipOwned = "TIS-Medical Owned";
+overview = "Medical mod for TIS Arma 3 Unit";
+author = "TIS - Tactical Intervention Syndicate";
+overviewPicture = "";
