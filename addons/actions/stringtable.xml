@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TIS-Medical">
+    <Package name="actions">
+        <Key ID="str_tis_medical_actions_administer_tisuprom">
+            <English>Administer Tisuprom</English>
+            <Polish>Podaj Tisuprom</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_administering_tisuprom">
+            <English>Administering Tisuprom</English>
+            <Polish>Podawanie Tisupromu</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_breakingneck">
+            <English>Breaking neck</English>
+            <Polish>Skręcanie karku</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_breakneck">
+            <English>Break neck</English>
+            <Polish>Skręć kark</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_setting_breakneck_enable">
+            <English>Breaking neck enabled</English>
+            <Polish>Skręcanie karku włączone</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_subcategory_breakingneck">
+            <English>Breaking neck</English>
+            <Polish>Skręcanie karku</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_treatmenttime_breakingneck">
+            <English>Breaking neck time</English>
+            <Polish>Czas skręcania karku</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_whipser">
+            <English>Whisper</English>
+            <Polish>Szeptnij</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_whispering">
+            <English>Whispering</English>
+            <Polish>Szeptanie</Polish>
+        </Key>
+    </Package>
+</Project>

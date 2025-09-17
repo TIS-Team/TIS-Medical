@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TIS-Medical">
+    <Package name="medicines">
+        <Key ID="str_tis_medical_medicines_tisuprom_desc_short">
+            <English>Strong pain-killing medicine</English>
+            <Polish>Silny lek przeciwbólowy</Polish>
+        </Key>
+        <Key ID="str_tis_medical_medicines_tisuprom_desc_use">
+            <English>Once per hour</English>
+            <Polish>Raz na godzinę</Polish>
+        </Key>
+        <Key ID="str_tis_medical_medicines_tisuprom_display">
+            <English>Tisuprom</English>
+            <Polish>Tisuprom</Polish>
+        </Key>
+    </Package>
+</Project>
