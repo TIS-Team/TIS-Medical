@@ -19,6 +19,13 @@
 #define SETPRVAR(var1,var2) profileNamespace SETVAR_SYS(var1,var2)
 #define SETPAVAR(var1,var2) parsingNamespace SETVAR_SYS(var1,var2)
 
+#define MACRO_ADDITEM(ITEM,COUNT) class _xx_##ITEM { \
+    name = #ITEM; \
+    count = COUNT; \
+}
+
+#define LINKFUNC(x) {_this call FUNC(x)}
+
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
     #define PREP(fncName) DFUNC(fncName) = compile preprocessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName).sqf)
@@ -28,3 +35,22 @@
     #define PREP(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction
     #define PREP_BY_PATH(fncName, fncPath) [QPATHTOF(fncPath), QFUNC(fncName)] call CBA_fnc_compileFunction
 #endif
+
+#define CBA_SETTINGS_CAT LSTRING(settingsTisMedicalCategory)
+
+
+// ACE3 macros
+
+#define ACE_PREFIX ace
+
+#define ACE_ADDON(component)        DOUBLES(ACE_PREFIX,component)
+
+#define ACEGVAR(module,var)         TRIPLES(ACE_PREFIX,module,var)
+#define QACEGVAR(module,var)        QUOTE(ACEGVAR(module,var))
+#define QQACEGVAR(module,var)       QUOTE(QACEGVAR(module,var))
+
+#define ACEFUNC(module,function)    TRIPLES(DOUBLES(ACE_PREFIX,module),fnc,function)
+#define QACEFUNC(module,function)   QUOTE(ACEFUNC(module,function))
+
+#define ACEPATHTOF(component,path) \z\ace\addons\component\path
+#define QACEPATHTOF(component,path) QUOTE(ACEPATHTOF(component,path))

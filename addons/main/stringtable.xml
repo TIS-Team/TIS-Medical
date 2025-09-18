@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TIS-Medical">
+    <Package name="main">
+        <Key ID="str_tis_medical_actions_settingstismedicalcategory">
+            <English>TIS Medical</English>
+            <Polish>TIS Medical</Polish>
+        </Key>
+    </Package>
+</Project>
