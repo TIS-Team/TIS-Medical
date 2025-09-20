@@ -5,7 +5,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = CSTRING(Tisuprom_Display);
-        author = ECSTRING(common,TISTeam);
+        author = ECSTRING(main,TISTeam);
         vehicleClass = "Items";
         class TransportItems {
             MACRO_ADDITEM(TIS_tisuprom,1);

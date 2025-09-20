@@ -1,5 +1,5 @@
-#define COMPONENT medical_medicines
-#include "\z\tis\addons\medical_main\script_mod.hpp"
+#define COMPONENT medicines
+#include "\z\tis_medical\addons\main\script_mod.hpp"
 
 // #define DEBUG_ENABLED_TIS_MEDICINES
 // #define DISABLE_COMPILE_CACHE
@@ -14,4 +14,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_TIS_MEDICAL
 #endif
 
-#include "\z\tis\addons\medical_main\script_macros.hpp"
+#include "\z\tis_medical\addons\main\script_macros.hpp"
