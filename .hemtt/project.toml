@@ -16,9 +16,8 @@ include = [
     "meta.cpp",     # They do not need to be added to your list
     "LICENSE",
     "keys/**",
-    "T1.paa",
-    "TISaddon.paa",
-    "TISEXP2.paa"
+    "expansion_menu_picture.paa",
+    "main_menu_logo.paa"
 ]
 exclude = [
     ".idea/**"

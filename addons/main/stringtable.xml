@@ -5,5 +5,9 @@
             <English>TIS Medical</English>
             <Polish>TIS Medical</Polish>
         </Key>
+        <Key ID="str_tis_medical_main_tisteam">
+            <English>TIS-Team</English>
+            <Polish>TIS-Team</Polish>
+        </Key>
     </Package>
 </Project>

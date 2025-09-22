@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX tis
+#define PREFIX tis_medical
 
 #include "script_version.hpp"
 
