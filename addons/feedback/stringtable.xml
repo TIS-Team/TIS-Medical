@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="TIS-Medical">
+    <Package name="feedback">
+        <Key ID="str_tis_medical_feedback_holdonyouarebeinghealed">
+            <English>Hold on, you are being healed.</English>
+            <Polish>Wytrzymaj jeszcze, jesteś leczony.</Polish>
+        </Key>
+        <Key ID="str_tis_medical_feedback_setting_unconsciousblackout_enable">
+            <English>Uncunconscious blackout enabled</English>
+            <Polish>Czerń podczas nieptrzytomności włączona</Polish>
+        </Key>
+        <Key ID="str_tis_medical_feedback_setting_youarebeinghealednotification_enable">
+            <English>"You are being healed" notification enabled</English>
+            <Polish>Informacja "Jesteś leczony" włączona</Polish>
+        </Key>
+        <Key ID="str_tis_medical_feedback_subcategory_unconscious">
+            <English>Uncunconscious</English>
+            <Polish>Nieptrzytomność</Polish>
+        </Key>
+    </Package>
+</Project>

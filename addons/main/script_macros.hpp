@@ -36,7 +36,7 @@
     #define PREP_BY_PATH(fncName, fncPath) [QPATHTOF(fncPath), QFUNC(fncName)] call CBA_fnc_compileFunction
 #endif
 
-#define CBA_SETTINGS_CAT LSTRING(settingsTisMedicalCategory)
+#define TIS_MEDICAL_SETTINGS_CAT ELSTRING(main,settingsTisMedicalCategory)
 
 
 // ACE3 macros
@@ -54,3 +54,9 @@
 
 #define ACEPATHTOF(component,path) \z\ace\addons\component\path
 #define QACEPATHTOF(component,path) QUOTE(ACEPATHTOF(component,path))
+
+
+#define FX_PAIN_FADE_IN   0.3
+#define FX_PAIN_FADE_OUT  0.7
+#define FX_UNCON_FADE_IN  2.0
+#define FX_UNCON_FADE_OUT 5.0
