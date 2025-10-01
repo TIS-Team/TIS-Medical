@@ -8,17 +8,15 @@ Medical mod for TIS Arma 3 Unit.
 
 ## Features
 
-Features:
-
-Medicines:
+#### Medicines:
 - [x] Tisuprom (better Morphine)
 - [ ] ...
 
-Actions:
+#### Actions:
 - [x] Break neck
 - [ ] ...
 
-Misc:
+#### Misc:
 - [x] Toggleable unconscious blackout effect
 - [x] Toggleable notification about being healed when unconscious
 - [ ] ...
