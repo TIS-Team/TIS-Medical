@@ -5,10 +5,8 @@ class CfgPatches
 	class ADDON
 	{
 		name = COMPONENT_NAME;
-		units[]={ "TIS_tisupromItem" };
-		weapons[]={
-			"TIS_tisuprom"
-		};
+		units[]={};
+		weapons[]={};
 		author="TIS";
 		requiredAddons[]={ "cba_main", "ace_medical_treatment", "tis_medical_main"};
 		requiredVersion=REQUIRED_VERSION;

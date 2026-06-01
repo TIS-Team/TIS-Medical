@@ -42,7 +42,7 @@ class ACE_Medical_Treatment_Actions {
         medicRequired = 0;
         treatmentTime = QGVAR(treatmentTime_BreakingNeck);
         items[] = {};
-        condition = QUOTE(!([_patient] call ace_common_fnc_isAwake) && GVAR(BreakNeck_Enable));
+        condition = QUOTE(GVAR(BreakNeck_Enable) && {GVAR(BreakNeck_Conscious_Enable) || {!([_patient] call ace_common_fnc_isAwake}}));
         litter[] = {};
         callbackSuccess = QFUNC(breakNeck);
         animationMedic = "AinvPknlMstpSnonWnonDnon_medicUp4";

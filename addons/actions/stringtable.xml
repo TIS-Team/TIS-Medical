@@ -17,6 +17,10 @@
             <English>Break neck</English>
             <Polish>Skręć kark</Polish>
         </Key>
+        <Key ID="str_tis_medical_actions_setting_breakneck_conscious_enable">
+            <English>Breaking neck on conscious units enabled</English>
+            <Polish>Skręcanie karku na przytomnych włączone</Polish>
+        </Key>
         <Key ID="str_tis_medical_actions_setting_breakneck_enable">
             <English>Breaking neck enabled</English>
             <Polish>Skręcanie karku włączone</Polish>
