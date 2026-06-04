@@ -3,11 +3,12 @@ class ACE_Medical_Treatment_Actions {
     class BasicBandage;
     class FieldDressing: BasicBandage {}; 
     class Morphine: FieldDressing {};
+    class Painkillers: Morphine {};
 
-    class Tisuprom: Morphine {
+    class Tisuprom: Painkillers {
         displayName = CSTRING(Administer_Tisuprom);
         displayNameProgress = CSTRING(Administering_Tisuprom);
-        // icon = QPATHTOEF(medical_gui,ui\painkillers.paa);
+        icon = QACEPATHTOF(medical_gui,ui\painkillers.paa);
         allowedSelections[] = {"Head"};
         medicRequired = 0;
         items[] = {"TIS_tisuprom"};
@@ -48,5 +49,23 @@ class ACE_Medical_Treatment_Actions {
         animationMedic = "AinvPknlMstpSnonWnonDnon_medicUp4";
         animationMedicProne = "AinvPknlMstpSnonWnonDnon_medicUp4";
         sounds[] = {{QPATHTO_R(data\sounds\breakNeck.ogg),1,1,50}};
+    };
+
+    class CheckAlive: BasicBandage {
+        displayName = CSTRING(CheckAlive);
+        displayNameProgress = CSTRING(CheckingAlive);
+        icon = "";
+        category = "examine";
+        consumeItem = 0;
+        allowedSelections[] = {"all"};
+        allowSelfTreatment = 0;
+        medicRequired = 0;
+        treatmentTime = QGVAR(treatmentTime_CheckingAlive);
+        items[] = {};
+        condition = QUOTE(GVAR(CheckingAlive_Enable));
+        litter[] = {};
+        callbackSuccess = QFUNC(checkAlive);
+        animationMedic = "AinvPknlMstpSnonWnonDnon_medicUp4";
+        animationMedicProne = "AinvPknlMstpSnonWnonDnon_medicUp4";
     };
 };
