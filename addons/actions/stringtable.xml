@@ -17,6 +17,22 @@
             <English>Break neck</English>
             <Polish>Skręć kark</Polish>
         </Key>
+        <Key ID="str_tis_medical_actions_checkalive">
+            <English>Check if patient is alive</English>
+            <Polish>Sprawdź czy pacjent żyje</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_checkingalive">
+            <English>Checking if patient is alive</English>
+            <Polish>Sprawdzanie czy pacjent żyje</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_patientisalive">
+            <English>Vital signs detected, patient is alive!</English>
+            <Polish>Wykryto funkcje życiowe, pacjent żyje!</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_patientisnotalive">
+            <English>No vital signs detected, patient is dead.</English>
+            <Polish>Nie wykryto funkcji życiowych, pacjent zmarł.</Polish>
+        </Key>
         <Key ID="str_tis_medical_actions_setting_breakneck_conscious_enable">
             <English>Breaking neck on conscious units enabled</English>
             <Polish>Skręcanie karku na przytomnych włączone</Polish>
@@ -25,21 +41,25 @@
             <English>Breaking neck enabled</English>
             <Polish>Skręcanie karku włączone</Polish>
         </Key>
+        <Key ID="str_tis_medical_actions_setting_checkalive_enable">
+            <English>Alive check enabled</English>
+            <Polish>Sprawdzanie żywotności włączone</Polish>
+        </Key>
         <Key ID="str_tis_medical_actions_subcategory_breakingneck">
             <English>Breaking neck</English>
             <Polish>Skręcanie karku</Polish>
+        </Key>
+        <Key ID="str_tis_medical_actions_subcategory_checkalive">
+            <English>Alive check</English>
+            <Polish>Sprawdzenie żytowności</Polish>
         </Key>
         <Key ID="str_tis_medical_actions_treatmenttime_breakingneck">
             <English>Breaking neck time</English>
             <Polish>Czas skręcania karku</Polish>
         </Key>
-        <Key ID="str_tis_medical_actions_whipser">
-            <English>Whisper</English>
-            <Polish>Szeptnij</Polish>
-        </Key>
-        <Key ID="str_tis_medical_actions_whispering">
-            <English>Whispering</English>
-            <Polish>Szeptanie</Polish>
+        <Key ID="str_tis_medical_actions_treatmenttime_checkingalive">
+            <English>Alive check time</English>
+            <Polish>Czas sprawdzania żywotności</Polish>
         </Key>
     </Package>
 </Project>

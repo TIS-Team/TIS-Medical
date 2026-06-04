@@ -55,6 +55,8 @@
 #define ACEPATHTOF(component,path) \z\ace\addons\component\path
 #define QACEPATHTOF(component,path) QUOTE(ACEPATHTOF(component,path))
 
+#define ACEELSTRING(module,name)    QUOTE(TRIPLES(STR,DOUBLES(ACE_PREFIX,module),name))
+
 
 #define FX_PAIN_FADE_IN   0.3
 #define FX_PAIN_FADE_OUT  0.7

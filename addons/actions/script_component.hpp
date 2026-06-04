@@ -15,3 +15,6 @@
 #endif
 
 #include "\z\tis_medical\addons\main\script_macros.hpp"
+
+
+#define TISUPROM_PAIN_SUPPRESSION 0.6

@@ -1,6 +1,5 @@
 class ACE_Medical_Treatment {
 
-    class Medication;
     class Painkillers;
     class Tisuprom: Painkillers {
         painReduce = 0.85; // Slightly better than morphine
